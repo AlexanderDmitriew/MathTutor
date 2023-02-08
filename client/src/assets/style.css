@@ -1,0 +1,42 @@
+:root {
+    --bg-color-header-light: #ffffff
+}
+
+*{
+    font-family: Inter;
+}
+
+.flex-column {
+    flex-direction: column !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.flex-column-fluid{
+    flex: 1 0 auto;
+}
+
+.align-items-stretch{
+    align-items: stretch !important;
+}
+
+.align-items-center{
+    align-items: center !important;
+}
+
+.justify-content-beetween{
+    justify-content: space-between !important;
+}
+
+.container-xxl{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    max-width: 1320px;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
